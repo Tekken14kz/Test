@@ -1,0 +1,257 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container {
+  max-width: 970px;
+}
+.wrap {
+  margin-top: 50px;
+}
+.logo {
+  height: 160px;
+  background-color: #1F2229;
+}
+.asideblock {
+  padding-right: 0!important;
+}
+.aside {
+  background-color: #1F2229;
+}
+.aside ul {
+  list-style: none;
+  padding: 0;
+}
+.aside ul li {
+  height: 75px;
+  border-top: #20232B 3px solid;
+}
+.aside ul li a {
+  text-decoration: none;
+  font-family: OpenSans-Bold;
+  font-size: 18px;
+  color: #FFF;
+  padding: 25px 0 25px 25px;
+  width: 100%;
+  display: block;
+  height: 100%;
+  outline: none;
+  color: #808592;
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+.aside ul li a:hover {
+  color: #fff;
+  background-color: #1F2229;
+}
+.aside ul li a:active {
+  background-color: #2A2D37;
+}
+.aside ul li:last-child {
+  border-bottom: #20232B 3px solid;
+}
+.mainblock {
+  padding-left: 2px!important;
+}
+.mainblock header {
+  background-color: #00aeef;
+  height: 160px;
+  padding: 50px 50px 0 30px;
+}
+.mainblock header h1 {
+  color: #193945;
+  font-size: 35px;
+  font-family: OpenSans-Bold;
+  margin-top: 0!important;
+}
+.mainblock header h2 {
+  color: #193945;
+  font-size: 14px;
+  font-family: Arial;
+}
+.mainblock .payinfo {
+  padding: 50px 0 50px 30px;
+  background-color: #f7f8f8;
+}
+.mainblock .payinfo table {
+  font-size: 16px;
+  font-family: Arial;
+}
+.mainblock .payinfo table th {
+  color: #8494ab;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.mainblock .payinfo table td:first-child {
+  color: #8494ab;
+}
+.mainblock .payinfo table td:last-child {
+  padding-left: 40px;
+  color: #373c43;
+}
+.mainblock .payinfo h3 {
+  font-size: 22px;
+  font-family: OpenSans-Bold;
+  color: #373c43;
+  padding-top: 35px;
+}
+.mainblock .cardform {
+  padding-top: 20px;
+  position: relative;
+}
+.mainblock .cardform .forwardside {
+  padding: 20px 15px 15px 15px;
+  border: 1px solid #e4e9ee;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  background-color: #F7F8F8;
+}
+.mainblock .cardform .forwardside input {
+  border: 1px solid #e4e9ee;
+  outline: none;
+  padding-left: 15px;
+}
+.mainblock .cardform .forwardside .cardname {
+  width: 320px;
+  height: 40px;
+  color: #000;
+}
+.mainblock .cardform .forwardside input::-webkit-input-placeholder {
+  color: #D1D6DC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mainblock .cardform .forwardside input::-moz-placeholder {
+  color: #D1D6DC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mainblock .cardform .forwardside input:-ms-input-placeholder {
+  color: #D1D6DC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mainblock .cardform .forwardside input::-ms-input-placeholder {
+  color: #D1D6DC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mainblock .cardform .forwardside input::placeholder {
+  color: #D1D6DC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mainblock .cardform .forwardside select {
+  border: 1px solid #e4e9ee;
+  outline: none;
+  padding-left: 15px;
+  background-color: #FFF;
+  width: 65px;
+  height: 40px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  background-image: url('../img/dropdown.png');
+  background-position: 80% center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.mainblock .cardform .forwardside select:first-child {
+  width: 70px;
+  height: 40px;
+  margin-right: 6px;
+}
+.mainblock .cardform .forwardside select:last-child {
+  width: 85px;
+  height: 40px;
+}
+.mainblock .cardform .forwardside label {
+  font-size: 16px;
+  font-family: Arial;
+  color: #8494ab;
+  font-weight: 400;
+}
+.mainblock .cardform .forwardside .cardnumb {
+  width: 65px;
+  height: 40px;
+  margin-right: 6px;
+}
+.mainblock .cardform .backside {
+  padding: 21px 0 15px 0px;
+  border: 1px solid #e4e9ee;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 370px;
+  height: 230px;
+  position: absolute;
+  z-index: 1;
+  top: 46px;
+  right: 40px;
+  background-color: #F7F8F8;
+}
+.mainblock .cardform .backside p {
+  height: 40px;
+  background-color: #E4E9EE;
+  width: 100%;
+}
+.mainblock .cardform .backside label {
+  font-size: 16px;
+  font-family: Arial;
+  color: #8494ab;
+  font-weight: 400;
+  margin-right: 30px;
+  display: block;
+  text-align: right;
+}
+.mainblock .cardform .backside input {
+  background-image: url('../img/cvv.png');
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  width: 135px;
+  height: 40px;
+  display: block;
+  float: right;
+  border: 1px solid #e4e9ee;
+  outline: none;
+  padding-left: 15px;
+}
+.mainblock .cardform .submit {
+  display: block;
+  margin-top: 40px;
+  padding: 10px 50px 10px 50px;
+  color: #fff;
+  font-size: 14px;
+  font-family: OpenSans-Bold;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9fc500), to(#88b700));
+  background-image: -webkit-linear-gradient(top, #9fc500 0%, #88b700 100%);
+  background-image: -o-linear-gradient(top, #9fc500 0%, #88b700 100%);
+  background-image: linear-gradient(to bottom, #9fc500 0%, #88b700 100%);
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.02);
+          box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.02);
+}
+.mainblock footer {
+  background-color: #373C43;
+  padding: 25px;
+}
+.mainblock footer p {
+  font-family: Arial;
+  font-size: 12px;
+  color: #89909d;
+  font-weight: 500;
+  text-align: left;
+}

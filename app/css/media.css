@@ -1,0 +1,220 @@
+/* P**dec na**i b**at */
+@media only screen and (min-width : 320px) and (max-width : 479px){
+.wrap{
+    margin-top: 0px;
+}
+header{
+    height: 180px!important;
+    padding: 40px 50px 0 30px;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.col-xs-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.mainblock{
+    padding-left: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.mainblock header h1{
+    position: relative;
+    top: -50px;
+    font-size: 30px!important;
+    width: 70%;
+}
+.mainblock header h2 {
+    position: relative;
+    top: -65px;
+}
+.mainblock .cardform .forwardside{
+    z-index: 2;
+    right: 7px;
+}
+.mainblock .cardform .backside{
+    position: relative;
+    width: 330px;
+    top: 18px;
+    right: 8px;
+    z-index: 1;
+}
+.mainblock .cardform .forwardside .cardname{
+    width: 290px;
+}
+.backside .cvvimg1{
+    left: 270px;
+}
+.animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+.non-animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+}
+
+/* XS, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 575px){
+.wrap{
+    margin-top: 0px;
+}
+header{
+    height: 180px!important;
+    padding: 40px 50px 0 30px;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-xs-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.mainblock{
+    padding-left: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.mainblock header h1{
+    position: relative;
+    top: -50px;
+    font-size: 30px!important;
+    width: 70%;
+}
+.mainblock header h2 {
+    position: relative;
+    top: -65px;
+}
+.mainblock .cardform .forwardside{
+    z-index: 2;
+    right: 7px;
+}
+.mainblock .cardform .backside{
+    position: relative;
+    width: 330px;
+    top: 18px;
+    right: 8px;
+    z-index: 1;
+}
+.mainblock .cardform .forwardside .cardname{
+    width: 290px;
+}
+.backside .cvvimg1{
+    left: 270px;
+}
+.animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+.non-animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+}
+
+@media only screen and (min-width : 575px) and (max-width : 767px){
+.wrap{
+    margin-top: 0px;
+}
+header{
+    height: 180px!important;
+    padding: 40px 50px 0 30px;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-xs-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.mainblock{
+    padding-left: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.mainblock header h1{
+    position: relative;
+    top: -50px;
+    font-size: 30px!important;
+    width: 70%;
+}
+.mainblock header h2 {
+    position: relative;
+    top: -65px;
+}
+.mainblock .cardform .forwardside{
+    z-index: 2;
+    right: 7px;
+}
+.mainblock .cardform .backside{
+    position: relative;
+    width: 330px;
+    top: 18px;
+    right: 8px;
+    z-index: 1;
+    display: block;
+}
+.mainblock .cardform .forwardside .cardname{
+    width: 290px;
+}
+.backside .cvvimg1{
+    left: 270px;
+}
+.animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+.non-animated{
+    animation: none!important;
+    animation-fill-mode: none!important;
+}
+}
+
+@media only screen and (min-width : 655px) and (max-width : 991px) {
+h2{
+    width: 70%;
+}
+}
+
+/* SM, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+.menu{
+    display: none;
+}
+.mainblock .cardform .forwardside .cardname{
+    width: 290px;
+}
+.mainblock .cardform .backside{
+    right: 15px;
+}
+.mainblock .cardform .forwardside{
+    left: -20px;
+}
+}
+
+/* MD, Desktops */
+@media only screen and (min-width : 992px) {
+.menu{
+    display: none;
+}
+}
+
+/* LG, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

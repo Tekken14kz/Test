@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MonkaS was here</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <!-- aside start-->
+                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs asideblock">
+                    <div class="logo">
+                        <!-- img -->
+                    </div>
+                    <div class="aside">
+                    	<!-- Desktop menu -->
+                        <ul>
+                            <li class="active"><a href="#">Первая ссылка</a></li>
+                            <li><a href="#">Вторая ссылка</a></li>
+                            <li><a href="#">Третья ссылка</a></li>
+                            <li><a href="#">Личный кабинет</a></li>
+                            <li><a href="#">Выйти</a></li>
+                        </ul>
+                        <!-- Desktop menu end -->
+                    </div>
+                </div>
+                <!-- aside end -->
+                <!-- main block start-->
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mainblock">
+                    <header>
+                        <!-- Hamburger -->
+                        <div class="mobile-menu visible-xs hidden-sm hidden-lg hidden-md">
+                            <div class="menu">
+                                <div class="menu__icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="menu__links">
+                                    <a class="menu__links-item" href="#">Первая ссылка</a>
+                                    <a class="menu__links-item" href="#">Вторая ссылка</a>
+                                    <a class="menu__links-item" href="#">Третья ссылка</a>
+                                    <a class="menu__links-item" href="#">Личный кабинет</a>
+                                    <a class="menu__links-item" href="#">Выйти</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hamburger end -->
+                        <h1>Заголовок страницы</h1>
+                        <h2>В отличие от пылевого и ионного хвостов, направление поступает
+в лимногляциальный часовой угол</h2>
+                    </header>
+                    <div class="payinfo">
+                        <table border="0">
+                            <th colspan="2">Информация по оплате:</th>
+                            <tr>
+                                <td>Номер счета:</td>
+                                <td>87123658716587</td>
+                            </tr>
+                            <tr>
+                                <td>Сумма платежа:</td>
+                                <td>100 руб.</td>
+                            </tr>
+                        </table>
+                        <h3>Данные банковской карты</h3>
+                        <div class="cardform">
+                            <!-- FORM -->
+                            <form name="card_form" class="card_form" method="POST" action="">
+                                <div class="forwardside">
+                                	<!-- Card number -->
+                                    <label>Номер карты</label>
+                                    <p>
+                                        <input required maxlength="4" class="cardnumb n1" type="text" pattern="[0-9]{4}" placeholder=" " onkeypress='validate(event)' />
+                                        <input required maxlength="4" class="cardnumb n2" type="text" pattern="[0-9]{4}" placeholder=" " onkeypress='validate(event)' />
+                                        <input required maxlength="4" class="cardnumb n3" type="text" pattern="[0-9]{4}" placeholder=" " onkeypress='validate(event)' />
+                                        <input required maxlength="4" class="cardnumb n4" type="text" pattern="[0-9]{4}" placeholder=" " onkeypress='validate(event)' />
+                                    </p>
+                                    <!-- Card number end -->
+                                    <!-- Card duration -->
+                                    <label>Срок действия</label>
+                                    <p>
+                                        <select class="select" id="selectId" name="select-box">
+                                            <option value="m1" selected="01">01</option>
+                                            <option value="m2">02</option>
+                                            <option value="m3">03</option>
+                                            <option value="m4">04</option>
+                                            <option value="m5">05</option>
+                                            <option value="m6">06</option>
+                                            <option value="m7">07</option>
+                                            <option value="m8">08</option>
+                                            <option value="m9">09</option>
+                                            <option value="m10">10</option>
+                                            <option value="m11">11</option>
+                                            <option value="m12">12</option>
+                                        </select>
+                                        <select class="select1" id="selectId1" name="select-box1">
+                                            <option value="y1">2018</option>
+                                            <option value="y2">2019</option>
+                                            <option value="y3">2020</option>
+                                            <option value="y4">2021</option>
+                                        </select>
+                                    </p>
+                                    <!-- Card duration end -->
+                                    <!-- Card name -->
+                                    <input name="namecard" required pattern="[A-Za-z ]{4,32}" class="cardname" type="text" title="Введите минимум 4 символа" maxlength="32" placeholder="Держатель карты" style="text-transform:uppercase" onkeypress='validatename(event)' />
+                                    <!-- Card name end -->
+                                </div>
+                                <!-- CVV form card -->
+                                <div class="backside">
+                                    <p></p>
+                                    <label>Код CVV / CVC2</label>
+                                    <input pattern="[0-9]{3}" maxlength="3" class="cvv" name="cvv" placeholder=" " required type="text" onkeypress='validate(event)' />
+                                    <div class="cvvimg" data="Тут был MonkaS"><img class="cvvimg1" src="img/cvv.png" data="asdqwefwf" alt=""></div>
+                                        <img class="ytka" src="img/monkas.png" alt="">
+        						</div>
+        						<!-- CVV form card end -->
+                                        <input class="submit" type="submit" value="Оплатить">
+                            </form>
+                            <!-- END FORM -->
+                        </div>
+                    </div>
+                    <footer>
+                        <p>Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.</p>
+                        <p>Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла.</p>
+                        <p>Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.</p>
+                        <p>Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</p>
+                    </footer>
+                </div>
+                <!-- main block end -->
+            </div>
+        </div>
+    </div>
+    <!--Scripts start-->
+    <script src="js/jquery.groupinputs.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/customscripts.js"></script>
+    <!--Scripts end-->
+</body>
+
+</html>
