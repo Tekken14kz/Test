@@ -209,3 +209,24 @@
             });
         });
     })(jQuery);
+
+
+$(document).mouseup(function (e){
+      if (jQuery(e.target).closest(".select__list").length > 0){
+         return false;
+      }
+      
+      else $(".select__list").css({ 'display': 'none' });
+      $(".select__gap").removeClass('on');
+       clickCount = 1;
+     });
+
+$(document).mouseup(function (e){
+      if (jQuery(e.target).closest(".select__list1").length > 0){
+         return false;
+      }
+      
+      else $(".select__list1").css({ 'display': 'none' });
+      $(".select__gap1").removeClass('on');
+       clickCount = 1;
+     });

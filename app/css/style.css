@@ -215,6 +215,12 @@ input::-webkit-inner-spin-button {
   color: #000;
   text-transform: uppercase;
   padding-right: 15px;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.mainblock .cardform .forwardside .cardname:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .mainblock .cardform .forwardside .cardname::-webkit-input-placeholder {
   text-transform: none;
@@ -272,6 +278,9 @@ input::-webkit-inner-spin-button {
   background-position: 80% center;
   background-repeat: no-repeat;
   cursor: pointer;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
 }
 .mainblock .cardform .forwardside select:first-child {
   width: 70px;
@@ -292,6 +301,12 @@ input::-webkit-inner-spin-button {
   width: 65px;
   height: 40px;
   margin-right: 6px;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.mainblock .cardform .forwardside .cardnumb:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .mainblock .cardform .backside {
   padding: 21px 0 15px 0px;
@@ -318,6 +333,14 @@ input::-webkit-inner-spin-button {
           animation: fancyShit2 0.5s ease-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+.mainblock .cardform .backside .cvv {
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.mainblock .cardform .backside .cvv:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .mainblock .cardform .backside p {
   height: 40px;
@@ -359,6 +382,13 @@ input::-webkit-inner-spin-button {
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.02);
           box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.02);
   outline: none;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.mainblock .cardform .submit:hover {
+  -webkit-box-shadow: inset -1px -2px 0px 0px rgba(0, 0, 0, 0.22);
+          box-shadow: inset -1px -2px 0px 0px rgba(0, 0, 0, 0.22);
 }
 .mainblock footer {
   background-color: #373C43;
@@ -389,6 +419,12 @@ ul {
   padding: 10px 15px;
   cursor: pointer;
   position: relative;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.select__gap:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .select__list {
   background: #fff;
@@ -450,6 +486,12 @@ ul {
   padding: 10px 20px;
   cursor: pointer;
   position: relative;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+.select__gap1:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .select__list1 {
   background: #fff;
